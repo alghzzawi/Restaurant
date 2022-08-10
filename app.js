@@ -35,11 +35,11 @@ Foods.prototype.addToMenu = function () {
 
 let form = document.getElementById('form');
 let submit = document.getElementById('submit');
-submit.addEventListener('submit',handleSubmit);
+form.addEventListener('submit',handleSubmit);
 function handleSubmit(event) {
     event.preventDefault();
-    let name = event.target.foodName.value;
-    let type = event.target.type.value;
+    let name = event.target.FoodName.value;
+    let type = event.target.foodType.value;
     let price = event.target.price.value;
     let id = FId();
     const newFood = new Foods(id,name,type,price)
