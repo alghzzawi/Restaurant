@@ -72,6 +72,7 @@ function getData() {
       arrayData[i].price
     );
   }
+  
   for (let i = 0; i < arrayData.length; i++) {
     allFood[i].addToMenu();
   }
