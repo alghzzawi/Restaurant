@@ -77,4 +77,5 @@ function getData() {
     allFood[i].addToMenu();
   }
 }
+
 getData();
