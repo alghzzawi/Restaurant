@@ -1,4 +1,4 @@
-'use strict';
+
 function Foods (foodId, foodName, type, price){
     this.foodId = foodId;
     this.foodName = foodName;
