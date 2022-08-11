@@ -13,6 +13,7 @@ function Foods(foodId, foodName, type, price) {
 }
 
 let table = document.getElementById("table");
+
 Foods.prototype.addToMenu = function () {
   let row = document.createElement("tr");
   table.appendChild(row);
