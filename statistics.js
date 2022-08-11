@@ -1,4 +1,4 @@
-"use strict";
+
 
 let allFood = [];
 
@@ -7,7 +7,6 @@ function Foods(foodId, foodName, type, price) {
   this.foodName = foodName;
   this.type = type;
   this.price = price;
-  // this.addToMenu();
 
   allFood.push(this);
 }
